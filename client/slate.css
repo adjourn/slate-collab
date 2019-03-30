@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 20px;
+}
+
+.editor {
+  padding: 10px;
+  border: 2px dashed #ec6161;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+.button {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: 2px dashed #bbb;
+  border-radius: 5px;
+  background: #eee;
+  color: #777;
+  line-height: 1;
+  font-family: Arial;
+  font-size: 17px;
+}
+.button:hover {
+  background: #ddd;
+}
+.button.active {
+  color: #000;
+  background: #bbb;
+}

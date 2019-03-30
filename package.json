@@ -1,0 +1,41 @@
+{
+  "name": "slate-collab",
+  "version": "0.0.1",
+  "description": "Slate Collab Example",
+  "main": "index.js",
+  "scripts": {
+    "client": "env ENVIRONMENT=dev webpack-dev-server --color --mode development",
+    "server": "node ./server/index.js",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.16.4",
+    "immutable": "^4.0.0-rc.12",
+    "react": "16.8.2",
+    "react-dom": "16.8.2",
+    "slate": "^0.44.12",
+    "slate-html-serializer": "^0.7.36",
+    "slate-react": "^0.21.18",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.1.1",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.0",
+    "html-webpack-plugin": "^3.1.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "postcss-custom-properties": "^8.0.9",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.18.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
